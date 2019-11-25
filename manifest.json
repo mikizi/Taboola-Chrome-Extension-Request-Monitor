@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Spy Ab Events",
+  "description": "This extension will Listen to all ab events",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "analytics.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "*://trc.taboola.com/*abtests?*"
+  ]
+}

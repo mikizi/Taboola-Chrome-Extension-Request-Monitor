@@ -1,0 +1,59 @@
+.event {
+    border: 1px solid #2196F3;
+    border-radius: 5px;
+    margin: 5px;
+    color: #454545;
+}
+
+.row {
+    width: 100%;
+}
+h3::after{
+    content: " : ";
+}
+
+h3 {
+    margin: 6px;
+}
+
+.row > * {
+    display: inline-block;
+}
+
+li.row.name {
+    color: #E91E63;
+}
+
+.event .header {
+    border-bottom: 1px solid #2196F3;
+}
+
+.event .header .count {
+    border-right: 1px solid #2196F3;
+    padding: 10px 20px;
+    text-align: center;
+    background: #2196F3;
+    color: white;
+}
+
+.count, .name {
+    display: inline-block;
+    height: 100%;
+    padding-left: 15px;
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.loading {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+header {
+    width: 300px;
+    margin: 8px;
+    font-size: 20px;
+}
+
+
