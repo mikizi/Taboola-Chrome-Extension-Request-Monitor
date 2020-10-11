@@ -56,4 +56,19 @@ header {
     font-size: 20px;
 }
 
+button#refreshBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #3F51B5;
+    border: none;
+    padding: 7px;
+    color: #f7f7f7;
+    border-radius: 5px;
+}
+
+button#refreshBtn:hover {
+    background-color: #5667c3;
+    cursor: pointer;
+}
 

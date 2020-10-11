@@ -9,6 +9,7 @@
   },
   "permissions": [
     "activeTab",
+    "storage",
     "webRequest",
     "*://trc.taboola.com/*abtests?*"
   ]
